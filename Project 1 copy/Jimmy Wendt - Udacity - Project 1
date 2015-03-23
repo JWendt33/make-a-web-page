@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<head>
+  <title>Jimmy's Notes</title>
+  <link rel="stylesheet" href="Jimmy-Style.css">
+</head>
+<body>
+  <div class="TOC">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+        <ul>
+          <li><a href="#lesson1-1">Where to begin</a></li>
+          <li><a href="#lesson1-2">Major pieces of the web</a></li>
+          <li><a href="#lesson1-3">HTML = HyperText Markup Language</a></li>
+          <li><a href="#lesson1-4">HTML Markup</a></li>
+          <li><a href="#lesson1-5">5 most important take-aways from Lesson 1</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Web Pages, Documents, and Structure</a>
+        <ul>
+          <li><a href="#lesson2-1">How do websites work?</a></li>
+          <li><a href="#lesson2-2">Everything is a Box!</a></li>
+          <li><a href="#lesson2-3">Boxes within boxes within boxes...</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a>
+        <ul>
+          <li><a href="#lesson3-1">Avoiding Repetition</a></li>
+          <li><a href="#lesson3-2">The Wonders of CSS</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <h1>Udacity Lessons 1, 2, and 3</h1>
+  <div class="lesson">
+    <h2 id= "lesson-1">Lesson 1: The Basics of the Web and HTML</h2>  
+    <div class="takeaway" id="lesson1-1">
+      <div class="takeaway-title">
+        Where to begin
+      </div>
+      <div class="takeaway-description">
+        <p>The worldwide web is a collection of HTML docs. The links between these pages is what makes the web <em>web-like</em>.</p>
+      </div>
+    </div>
+    <div class="takeaway" id="lesson1-2">
+      <div class="takeaway-title">
+        Major pieces of the web
+      </div>
+      <div class="takeaway-description">
+        <p>
+          You: a person.
+        </p>  
+        <p>
+          Your Computer: <a href="http://en.wikipedia.org/wiki/Personal_computer"> probably this</a>.
+        </p>
+        <p>
+          Web Browser: A program that runs on your computer to display files found on the web.
+        </p>
+        <p>
+          The Internet: The world's largest computer network. Invented by <a href="https://breakingbird.files.wordpress.com/2014/11/al-gore.jpg"> Al Gore</a>.
+        </p> 
+        <p>
+          Servers: Computers that host the files that make up the web
+        </p>
+        <p>
+          HTTP - the main protocol of the web
+        </p>  
+       </div>  
+     </div>
+     <div class="takeaway" id="lesson1-3">
+      <div class="takeaway-title">
+        HTML = HyperText Markup Language
+      </div>
+      <div class="takeaway-description"> 
+       <p>
+         It's considered the heart of the web. It's made up of: 
+       </p>
+       <p>
+         <b>Text content</b>: what you see
+       </p>
+       <p> 
+         <b>Markup</b>: what it looks like
+       </p>
+       <p> 
+         <b>References to documents</b>: e.g. images + videos
+       </p>
+       <p> 
+         <b>Links to other pages</b>: <a href="https://www.udacity.com">Like this!</a>
+       </p>  
+      </div>  
+     </div>
+     <div class="takeaway" id="lesson1-4">
+      <div class="takeaway-title"> 
+        HTML Markup
+      </div>
+      <div class="takeaway-description"> 
+       <p>
+         HTML markup consists of opening tags, closing tags, and contents. All of that combines into an "element." Here is a link to a <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">video</a> that discusses this in more detail. 
+       </p>
+       <p>
+         Elements can either be <em>in-line</em> or <em>block</em>.  Block elements create an "invisible box" around the content that sits inside ofthem.
+       </p>
+      </div>
+     </div>
+     <div class="takeaway" id="lesson1-5">
+      <div class="takeaway-title"> 
+        5 most important take-aways from Lesson 1
+      </div>
+      <div class="takeaway-description"> 
+       <p>
+         1. What a web page is: A web page is a text document written in a language known as HTML. Our web browsers then read, interpret, and display these documents.
+       </p> 
+       <p>
+         2. How coding works: Coding involves writing text in a language that a computer can understand. The computer then follows the instructions written by the programmer.
+       </p>
+       <p>
+         3. Programmers must write their code using the proper syntax, otherwise the computer will not be able to understand it.
+       </p>
+       <p>
+         4. Programmers can’t remember everything: There are too many details and variations to keep everything in your head. It's more important to understand the broad strokes. You can actually google lots of specific things rather than trying to memorize them.
+       </p> 
+       <p>
+         5. Basic HTML vocabulary: A <b>tag</b> is contained within angled brackets. Most tags have what are known as an opening tag and a closing tag. However, some tags do not need a closing tag. They're known as “<b>void</b>” tags. An HTML <b>element</b> refers to everything within a set of opening and closing tags. An <b>attribute</b> is a property of an HTML element.
+        </p>
+      </div>
+     </div>
+  </div>
+  <div class="lesson">
+    <h2 id= "lesson-2">Lesson 2: Web Pages, Documents, and Structure</h2>
+    <div class="takeaway" id="lesson2-1">
+      <div class="takeaway-title">
+        How do websites work?
+      </div>
+      <div class="takeaway-description"> 
+        <p>
+          - You can think of a website much like your house.
+        </p> 
+        <p>
+          - <b>HTML</b> files are the <b>structure</b>. Where your wall is placed. What room is your living room, what room is your kitchen, etc.
+        </p>
+        <p>
+          - <b>CSS</b> files are the <b>style</b>. What color is your carpeting? What decorations do you have up? What color is the wall?
+        </p>
+        <p>
+          - <b>Javascript</b> files are your <b>interactive</b> components. Your garage door opener or your television remote. They’re changing some element of your house
+        </p> 
+      </div>  
+    </div>
+    <div class="takeaway" id="lesson2-2">
+      <div class="takeaway-title">
+        Everything is a Box!
+      </div> 
+      <div class="takeaway-description">
+        <p>
+          Everything on a web page is actually a box. It gets changed using style. When you start to accept that everything is a box, you can begin to visualize this to move items around on the page.Always sketch out the boxes to better understand how the web page is structured. Start with the big boxes and work backward from there. Even really accomplished programmers do this :)
+        </p>
+      </div>
+    </div>
+    <div class="takeaway" id="lesson2-3">
+      <div class="takeaway-title">
+        Boxes within boxes within boxes...
+      </div> 
+      <div class="takeaway-description">
+        <p>
+          HTML uses what some refer to as a "tree-like structure" for its documents. That is to say that elements can be placed inside other elements. Tree-like structures are used in a variety of disciplines to bring some sort of hierarchy to things. When you view an HTML page in a web browser, this tree-like structure manifests itself as a bunch of "nested" boxes. For a better visual example, take a look at this <a href="https://s-media-cache-ak0.pinimg.com/736x/30/cd/a4/30cda4a8b3dbbd18dafefd94573176d2.jpg">work of art</a>, in which Bob Ross is painting a picture of Rick Ross, who is painting a picture of Ross from <em>Friends</em>, who is painting a picture of Bob Ross and so on and so forth.  
+        </p>
+        <p>
+          When viewing actual HTML code, you can get a sense of this tree-like structure by keeping an eye out for all of the indents on the left side of the screen. The more indented an element is, the more nested it is. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id= "lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <div class="takeaway" id="lesson3-1">
+      <div class="takeaway-title">
+        Avoiding Repetition
+      </div>
+      <div class="takeaway-description"> 
+        <p>
+          When we talk about avoiding repetition, we're talking about not having to manually rewrite code over and over and over again. This is important because it helps us avoid errors and make changes to our document more efficiently.
+        </p>
+        <p>
+          It's pretty easy to overlook something. So, if we decide to make a change to our code, it's easy to  forget to make that change in every location that the repeated code appears.
+        </p>
+        <p>
+          We're also able to save time by not manually rewriting code. Just like Andy, I want each "lesson" on this page to have the same style. Rather than manually apply that style to each lesson, I can give each lesson "div" the same "class" then apply one style to that class. The style will then show up for each lesson. 
+        </p>
+      </div>
+    </div>
+    <div class="takeaway" id="lesson3-2">
+      <div class="takeaway-title">
+        The Wonders of CSS
+      </div>
+      <div class="takeaway-description"> 
+        <p>
+          Cascading Style Sheets, more commonly known as CSS, allow us to make changes to the style of HTML elements. CSS enables us to control things like font size, color, background color, borders, margins, and much more. When we want to apply the same style to a bunch of related elements, we can give those elements a "class" and then apply style to that class.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
